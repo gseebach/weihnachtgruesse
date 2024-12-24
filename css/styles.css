@@ -19,9 +19,9 @@ text-align: center;
 .karte{
     height: 100vh;
     background-image: url('../images/sternenhimmel2.jpg');
-    background-repeat:no-repeat;
-    background-position:top;
-    background-size: 100% auto;
+    background-repeat:repeat;
+    background-position:center;
+    background-size: auto 100%;
     position: relative;
 }
 .titel{
