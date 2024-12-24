@@ -20,7 +20,7 @@ text-align: center;
     height: 100vh;
     background-image: url('../images/sternenhimmel2.jpg');
     background-repeat:no-repeat;
-    background-position:bottom;
+    background-position:top;
     background-size: 100% auto;
     position: relative;
 }
@@ -31,6 +31,17 @@ text-align: center;
     position: absolute;
     right: -800px;
     top: 30vh;
+}
+#adressat{
+    font-family: 'MeaCulpa';
+    font-size: 4rem;
+    text-align: center;
+}
+#von{
+    font-family: 'MeaCulpa';
+    font-size: 3rem;
+    text-align: center;
+
 }
 .farbe{
     color:black;
