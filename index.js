@@ -12,6 +12,7 @@ adressat=sender;
 if (sender=="f868e6899b22fb69ec5bcee32e15f5cf"){adressat="Altmüllers"} 
 else if (sender=="3a64b61efc7eb5180e20081d286888bc") {adressat="Sätteles"}
 else if (sender=="e74c9e17a2454b2bf0867a530a3bec7f") {adressat="Gündischs"}
+else if (sender=="8a5a0eae251267eb349bf9db3e09712d") {adressat="Familie"}
 else {adressat="Freunde"}
 document.querySelector("#adressat").innerHTML="liebe "+ adressat;
 $(document).ready(function(){
